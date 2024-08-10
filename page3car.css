@@ -1,0 +1,78 @@
+body{
+  background: linear-gradient(360deg, #222222, black);
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.container{
+  border: solid 4px white;
+  border-radius: 2cqi;
+  width: 1000px;
+  height: 600px;
+  box-shadow: 
+  0 0 10px white,
+  0 0 15px white,
+  0 0 20px white;
+}
+.cont1{
+  margin-bottom: 90px;
+}
+
+button {
+  float: left;
+  width: 240px;
+  height: 240px;
+  margin: 3px;
+  border: solid;
+  border-radius: 9%;
+}
+button:hover{
+  opacity: 80%;
+  transition: all .3s;
+}
+.b1{
+  background-position: bottom;
+  background-attachment: fixed;
+  background:url(expensivepage2car.jpeg);
+}
+.b2{
+  background:url(ferraripage2car.webp);
+  background-size: cover;
+}
+.b3{
+  background-attachment: fixed;
+  background-size: 1px;
+  background:url(truck2page2car.jpg);
+}
+.b4{
+  background-attachment: fixed;
+  background-position: center;
+  background:url(tuck2page2car.jpg);
+}
+.y{
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: larger;
+  letter-spacing: 7px;
+  font-family:"Roboto Condensed", sans-serif;
+}
+.y1{
+  text-shadow: 
+  0 0 10px white,
+  0 0 15px white,
+  0 0 20px white;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: larger;
+  letter-spacing: 7px;
+  font-family:"Roboto Condensed", sans-serif;
+}
